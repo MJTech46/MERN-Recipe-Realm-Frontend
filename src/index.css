@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.containerx {
+  padding-right: 2%;
+  padding-left: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .containerx {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .containerx {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .containerx {
+    width: 1170px;
+  }
+}
