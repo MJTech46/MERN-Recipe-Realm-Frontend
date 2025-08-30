@@ -1,41 +1,56 @@
-# Getting Started with Create React App
+# 🍴 MERN-Recipe-Realm (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **frontend** part of the MERN-Recipe-Realm project.  
+Built using **React.js**, it provides the user interface for managing recipes.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- User-friendly interface for recipe management.  
+- Add, view, update, and delete recipes.  
+- Responsive design for desktop and mobile.  
+- Fetches data from the backend API.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack (Frontend)
+- **React.js** – Core UI framework  
+- **Axios / Fetch API** – For API calls  
+- **React Router** – Navigation between pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚡ Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1️⃣ Navigate to Frontend Folder
+```bash
+cd frontend
+```
 
-### `npm run build`
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3️⃣ Run the Development Server
+```bash
+npm start
+```
+The app will run on **http://localhost:3000**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔗 Backend Connection
+The frontend connects to the backend API (Express + MongoDB).  
+Make sure the backend is running on **http://localhost:5000** or update the API URL inside your frontend code.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎓 About
+This frontend was built as part of the **Introduction to MERN Stack** session in college, focusing on **React.js basics** and how it communicates with a backend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+## 📜 License
+This project is for educational purposes.  
+You may use and modify it freely.
